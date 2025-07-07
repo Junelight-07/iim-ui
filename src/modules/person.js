@@ -1,11 +1,11 @@
 class Person {
   firstName() {
-    const names = ["Alice", "Bob", "Charlie", "David", "Eve"];
+    const names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve'];
     return names[Math.floor(Math.random() * names.length)];
   }
 
   lastName() {
-    const names = ["Smith", "Johnson", "Williams", "Brown", "Jones"];
+    const names = ['Smith', 'Johnson', 'Williams', 'Brown', 'Jones'];
     return names[Math.floor(Math.random() * names.length)];
   }
 
